@@ -1,0 +1,47 @@
+{
+  "channels": [
+    {
+      "id": "web",
+      "label": "LaFragata.Net",
+      "topbar": "Visitá la web",
+      "cta": "▶ ENTRAR A LAFRAGATA.NET",
+      "handle": "LaFragata.Net"
+    },
+    {
+      "id": "whatsapp",
+      "label": "WhatsApp",
+      "topbar": "Comunicate por WhatsApp",
+      "cta": "▶ ESCRIBINOS POR WHATSAPP",
+      "handle": "3758 57-7209"
+    },
+    {
+      "id": "facebook",
+      "label": "Facebook",
+      "topbar": "Estamos en Facebook",
+      "cta": "▶ SEGUIR EN FACEBOOK",
+      "handle": "/ lafragatastream"
+    },
+    {
+      "id": "instagram",
+      "label": "Instagram",
+      "topbar": "Estamos en Instagram",
+      "cta": "▶ SEGUIR EN INSTAGRAM",
+      "handle": "/ lafragata_stream"
+    },
+    {
+      "id": "tiktok",
+      "label": "TikTok",
+      "topbar": "Encontranos en TikTok",
+      "cta": "▶ SEGUIR EN TIKTOK",
+      "handle": "/ lafragata_stream"
+    },
+    {
+      "id": "email",
+      "label": "Email",
+      "topbar": "Escribinos por mail",
+      "cta": "▶ ESCRIBINOS POR MAIL",
+      "handle": "lafragatastream@gmail.com"
+    }
+  ],
+  "next_index": 2
+}
