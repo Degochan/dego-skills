@@ -1,0 +1,75 @@
+:root {
+  --lf-color-bg: #011326;
+  --lf-color-surface: #0a1f35;
+  --lf-color-surface-alt: #111827;
+  --lf-color-primary: #c5a059;
+  --lf-color-primary-hover: #d4b06a;
+  --lf-color-text: #f3f4f6;
+  --lf-color-text-muted: #9ca3af;
+  --lf-color-live: #ef4444;
+
+  --lf-font-brand-display: "Cormorant Garamond", "Times New Roman", serif;
+  --lf-font-heading: "Montserrat", system-ui, -apple-system, sans-serif;
+  --lf-font-body: "Inter", "Roboto", "Open Sans", system-ui, -apple-system, sans-serif;
+
+  --lf-radius-sm: 4px;
+  --lf-radius-md: 8px;
+  --lf-radius-lg: 16px;
+
+  --lf-border-soft: rgba(255, 255, 255, 0.05);
+  --lf-border: rgba(255, 255, 255, 0.10);
+  --lf-glass-panel: rgba(30, 30, 30, 0.60);
+  --lf-shadow-glow: 0 0 15px rgba(197, 160, 89, 0.15);
+}
+
+.lf-page {
+  background: var(--lf-color-bg);
+  color: var(--lf-color-text);
+  font-family: var(--lf-font-body);
+}
+
+.lf-heading {
+  color: var(--lf-color-primary);
+  font-family: var(--lf-font-heading);
+  font-weight: 800;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+.lf-brand-wordmark {
+  color: var(--lf-color-text);
+  font-family: var(--lf-font-brand-display);
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+.lf-panel {
+  background: var(--lf-glass-panel);
+  border: 1px solid var(--lf-border-soft);
+  border-radius: var(--lf-radius-lg);
+  box-shadow: var(--lf-shadow-glow);
+  backdrop-filter: blur(12px);
+}
+
+.lf-button-primary {
+  background: var(--lf-color-primary);
+  color: #000;
+  border: none;
+  border-radius: var(--lf-radius-md);
+  font-family: var(--lf-font-body);
+  font-weight: 600;
+}
+
+.lf-button-primary:hover {
+  background: var(--lf-color-primary-hover);
+}
+
+.lf-meta {
+  color: var(--lf-color-text-muted);
+  font-family: var(--lf-font-body);
+}
+
+.lf-live {
+  color: var(--lf-color-live);
+}
